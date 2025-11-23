@@ -20,4 +20,4 @@ Sep-2025: Bibliometrics Centrality vs Density from VOSViewer Data
 1. File1: From the Scopus search, export the data. Copy this a new file with minimal columns as: `doc_id`, `citations`, `keywords`.
   1. We will use this to create a new file as: `(DocID, Keywords) (1:n) -> (Keyword, DocIDS) (1:n)`.
   2. Build a Co-Occurrence matrix of Keywords. 
-3. File2: Keyword Clusters data (built using GenAI). The minimal data columns are: Keywords, Cluster. 
+3. File2: Keyword Clusters data (built using GenAI). The minimal data columns are: `Keywords`, `Cluster`. 
